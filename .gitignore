@@ -1,0 +1,42 @@
+
+# Data files (don't commit large data files)
+data/*
+!data/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.db
+airflow/
+dags/__pycache__/
